@@ -15,7 +15,7 @@ from stripe.six.moves.urllib.error import HTTPError
 from tests.request_mock import RequestMock
 
 
-MOCK_MINIMUM_VERSION = '0.4.0'
+MOCK_MINIMUM_VERSION = '0.5.0'
 MOCK_PORT = os.environ.get('STRIPE_MOCK_PORT', 12111)
 
 
